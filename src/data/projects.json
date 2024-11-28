@@ -1,0 +1,35 @@
+[
+	{
+		"id": "1",
+		"title": "Marché Fruits et Légumes",
+		"image": "./public/images/etal.JPG",
+
+		"link": "https://projet-perso-liard.vercel.app/",
+		"languages": ["React", "TypeScript", "JavaScript", "Vite"]
+	},
+	{
+		"id": "2",
+		"title": "En cours de réalisation : Site d'information",
+		"image": "./images/MIB.JPG",
+
+		"link": "https://example.com/project2",
+		"languages": ["React", "TypeScript", "JavaScript", "Vite", "Figma"]
+	},
+	{
+		"id": "3",
+		"title": "Pokedex",
+		"image": "./images/pokedex.JPG",
+
+		"link": "https://pokedex-qqs8qzl6m-mathieufoucaults-projects.vercel.app/",
+		"languages": ["React", "TypeScript", "JavaScript", "Vite", "Express"]
+	},
+
+	{
+		"id": "4",
+		"title": "Jeu Quiz",
+		"image": "./images/quiz.JPG",
+
+		"link": "https://quizzz-orpin.vercel.app/",
+		"languages": ["JavaScript", "Figma"]
+	}
+]

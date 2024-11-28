@@ -1,0 +1,45 @@
+.contact {
+	padding: 4rem 0;
+}
+
+.contact-buttons {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.contact-button {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	padding: 1rem;
+	background-color: var(--text-light);
+	color: white;
+	text-decoration: none;
+	border-radius: 8px;
+	transition: var(--transition);
+}
+
+.contact-button:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+}
+
+.contact-button span {
+	font-weight: 500;
+}
+
+/* Desktop styles */
+@media (min-width: 768px) {
+	.contact-buttons {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.contact-button {
+		flex: 0 1 auto;
+	}
+}

@@ -1,0 +1,224 @@
+.header {
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	overflow: hidden;
+}
+
+.background-image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	transition: background-image 0.5s ease;
+}
+
+.background-image.dark {
+	background-image: url(../assets/webdev.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.background-image.light {
+	background-image: url(../assets/webdevlight.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.header::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	z-index: -1;
+}
+
+.navBar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0.5rem;
+	background: rgba(0, 0, 0, 0.5);
+	backdrop-filter: blur(8px);
+	z-index: 1000;
+	transition: top 0.3s;
+}
+
+.nav-links a {
+	color: white;
+	text-decoration: none;
+	margin: 0 0.5rem;
+	font-weight: 500;
+	transition: var(--transition);
+}
+
+.nav-links a:hover {
+	color: var(--primary-color);
+}
+
+.nav-controls button {
+	background: none;
+	border: none;
+	color: white;
+	cursor: pointer;
+	padding: 0.5rem;
+	margin-left: 1rem;
+	transition: var(--transition);
+}
+
+.nav-controls button:hover {
+	color: var(--primary-color);
+}
+
+.hero {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 7rem 2rem 2rem 2rem;
+
+	position: relative;
+}
+
+.hero-content {
+	max-width: 1200px;
+	width: 100%;
+}
+
+.profile-image {
+	width: 10em;
+	height: 13em;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-bottom: 1rem;
+}
+
+.nameH2 {
+	font-size: 2em;
+	margin: 0.5em 0;
+	letter-spacing: 5px;
+	animation: blink 12s infinite;
+}
+
+@keyframes blink {
+	20%,
+	24%,
+	55% {
+		color: #111;
+		text-shadow: none;
+	}
+	0%,
+	19%,
+	21%,
+	23%,
+	25%,
+	54%,
+	56%,
+	100% {
+		text-shadow: 0 0 5px #5714ffad, 0 0 15px #eee, 0 0 20px #1447ffad, 0 0 40px
+			#a00ac9, 0 0 60px #00ff62, 0 0 10px #540dc5, 0 0 98px #5eff00;
+		color: #eae8e8;
+	}
+}
+
+.jobH3 {
+	text-transform: uppercase;
+	display: block;
+	font-weight: bold;
+	letter-spacing: 7px;
+}
+
+.language-button {
+	display: flex;
+	align-items: center;
+	padding: 0.5em 1em;
+	background-color: var(--bg-dark);
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	text-decoration: none;
+	transition: transform 0.3s;
+}
+
+.language-button:hover {
+	transform: scale(1.1);
+}
+
+.language-icon {
+	margin-right: 10px;
+	width: 20px;
+	height: 20px;
+}
+
+/* Mobile First */
+.profile-section {
+	text-align: center;
+	margin-bottom: 2rem;
+	position: relative;
+}
+
+.skills-section {
+	text-align: center;
+}
+
+.tech-buttons {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 1rem;
+	margin-bottom: 1.5rem;
+}
+
+/* Desktop */
+@media (min-width: 768px) {
+	.hero-content {
+		display: flex;
+		align-items: center;
+		gap: 4rem;
+	}
+
+	.profile-section {
+		flex: 1;
+		text-align: left;
+		margin-bottom: 0;
+	}
+
+	.nameH2 {
+		font-size: 3em;
+	}
+
+	.profile-image {
+		margin-left: 2em;
+	}
+
+	.skills-section {
+		flex: 1;
+		text-align: left;
+	}
+
+	.tech-buttons {
+		justify-content: flex-start;
+	}
+
+	.intro-text {
+		margin: 0;
+	}
+}
+
+@media (min-width: 1110px) {
+	.profile-image {
+		margin-left: 10em;
+	}
+}
