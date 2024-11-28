@@ -211,10 +211,6 @@
 	.tech-buttons {
 		justify-content: flex-start;
 	}
-
-	.intro-text {
-		margin: 0;
-	}
 }
 
 @media (min-width: 1110px) {

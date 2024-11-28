@@ -2,7 +2,7 @@
 	{
 		"id": "1",
 		"title": "Marché Fruits et Légumes",
-		"image": "./public/images/etal.JPG",
+		"image": "./images/marche.JPG",
 
 		"link": "https://projet-perso-liard.vercel.app/",
 		"languages": ["React", "TypeScript", "JavaScript", "Vite"]

@@ -33,7 +33,7 @@ export default function Header() {
 				<div className="hero-content">
 					<div className="profile-section">
 						<img
-							src="./public/images/photocv.JPG"
+							src="./images/CV.JPG"
 							alt="Mathieu Foucault"
 							className="profile-image"
 						/>
