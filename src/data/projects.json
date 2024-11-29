@@ -31,5 +31,13 @@
 
 		"link": "https://quizzz-orpin.vercel.app/",
 		"languages": ["JavaScript", "Figma"]
+	},
+	{
+		"id": "5",
+		"title": "Map",
+		"image": "./images/map.JPG",
+
+		"link": "https://map-omega-wheat.vercel.app/",
+		"languages": ["React", "TypeScript", "JavaScript", "Vite", "Figma"]
 	}
 ]
