@@ -9,14 +9,6 @@
 	},
 	{
 		"id": "2",
-		"title": "MIB : Site d'information",
-		"image": "./images/MIB.JPG",
-
-		"link": "https://mib-wcs-news.vercel.app/",
-		"languages": ["React", "TypeScript", "JavaScript", "Vite", "Figma"]
-	},
-	{
-		"id": "3",
 		"title": "Pokedex",
 		"image": "./images/pokedex.JPG",
 
@@ -25,7 +17,7 @@
 	},
 
 	{
-		"id": "4",
+		"id": "3",
 		"title": "Jeu Quiz",
 		"image": "./images/quiz.JPG",
 
@@ -33,7 +25,7 @@
 		"languages": ["JavaScript", "Figma"]
 	},
 	{
-		"id": "5",
+		"id": "4",
 		"title": "Map",
 		"image": "./images/map.JPG",
 
