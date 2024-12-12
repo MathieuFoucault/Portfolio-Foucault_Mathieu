@@ -9,10 +9,10 @@
 	},
 	{
 		"id": "2",
-		"title": "En cours de réalisation : Site d'information",
+		"title": "MIB : Site d'information",
 		"image": "./images/MIB.JPG",
 
-		"link": "https://example.com/project2",
+		"link": "https://mib-wcs-news.vercel.app/",
 		"languages": ["React", "TypeScript", "JavaScript", "Vite", "Figma"]
 	},
 	{
