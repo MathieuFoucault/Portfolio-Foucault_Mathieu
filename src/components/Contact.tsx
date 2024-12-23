@@ -29,7 +29,7 @@ export default function Contact() {
 		{
 			icon: <FileText size={24} />,
 			text: language === "fr" ? "CV" : "Resume",
-			url: "/public/docs/cv2024FoucaultMathieuFullstackWebDev.pdf",
+			url: "/public/docs/cv-2024-Foucault-Mathieu-Developpeur-Web.pdf",
 			download: true,
 		},
 	];
