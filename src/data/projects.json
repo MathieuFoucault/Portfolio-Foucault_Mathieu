@@ -39,5 +39,20 @@
 
 		"link": "https://map-omega-wheat.vercel.app/",
 		"languages": ["React", "TypeScript", "JavaScript", "Vite", "Figma"]
+	},
+	{
+		"id": "6",
+		"title": "E-Shop",
+		"image": "./images/eShop.JPG",
+
+		"link": "https://e-shop-client-eight.vercel.app/",
+		"languages": [
+			"React",
+			"TypeScript",
+			"JavaScript",
+			"Vite",
+			"Figma",
+			"Tailwind"
+		]
 	}
 ]
