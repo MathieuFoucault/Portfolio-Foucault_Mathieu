@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import projects from "../data/projects.json";
 import "./Projects.css";
+import { Link } from "react-router-dom";
 
 export default function Projects() {
 	const { language } = useLanguage();
@@ -143,7 +144,9 @@ export default function Projects() {
 			<p id="about" className="intro-text">
 				{about[language]}
 			</p>
-			<h1> {title[language]} </h1>
+			<Link to="/projects">
+				<h1>{title[language]}</h1>
+			</Link>
 			<p className="projects-description">{description[language]}</p>
 
 			<div className="carousel-container">

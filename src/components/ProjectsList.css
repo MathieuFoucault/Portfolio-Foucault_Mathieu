@@ -1,0 +1,55 @@
+.projects-list {
+	min-height: 100vh;
+	background-color: var(--bg-color); /* Utiliser la variable pour le fond */
+	color: var(--text-color); /* Utiliser la variable pour la couleur du texte */
+	transition: var(--transition);
+	padding: 2em;
+}
+
+.projects-list h1 {
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+li {
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column; /* Par défaut, afficher les éléments en colonne */
+	align-items: center; /* Centrer les éléments */
+}
+
+.project-image {
+	max-width: 100%; /* Empêche l'image de dépasser la largeur de son conteneur */
+	height: auto; /* Maintient le ratio de l'image */
+	width: 80%; /* Rétrécit la largeur de l'image, ajustez ce pourcentage si nécessaire */
+}
+
+.project-details {
+	text-align: center; /* Centrer le texte sur mobile */
+}
+
+.project-link {
+	font-weight: bold;
+}
+
+@media (min-width: 720px) {
+	/* Styles pour la version desktop */
+	li {
+		flex-direction: row; /* Afficher les éléments en ligne */
+		align-items: center; /* Aligne verticalement au centre */
+	}
+
+	.project-image {
+		width: 20em; /* Largeur fixe de l'image, ajustez ce chiffre selon vos besoins */
+		margin-right: 1.5em; /* Espacement entre l'image et les détails */
+	}
+
+	.project-details {
+		text-align: left; /* Aligner le texte à gauche sur desktop */
+	}
+}
