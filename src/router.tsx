@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "./App";
 import HomePage from "./pages/HomePage";
+import ProjectsPage from "./pages/ProjectsPage";
 
 export const mainRouter = createBrowserRouter([
 	{
@@ -9,6 +10,10 @@ export const mainRouter = createBrowserRouter([
 			{
 				path: "/",
 				element: <HomePage />,
+			},
+			{
+				path: "/projects",
+				element: <ProjectsPage />,
 			},
 			{
 				path: "*",

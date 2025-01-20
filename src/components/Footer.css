@@ -1,11 +1,16 @@
 .footer {
-	background: transparent;
+	background-color: var(--bg-color);
 	padding: 2rem;
 	text-align: center;
+	transition: var(--transition);
 }
 
 .footer p {
 	margin-top: 0;
 	font-size: 0.9rem;
 	opacity: 0.8;
+}
+
+.text-light {
+	color: var(--text-light);
 }
