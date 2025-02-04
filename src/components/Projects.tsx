@@ -46,50 +46,59 @@ export default function Projects() {
 		fr: (
 			<>
 				<p>
-					Développeur web passionné par la création d'applications modernes et
-					performantes. Spécialisé dans les technologies JavaScript et React, je
-					m'efforce de créer des expériences utilisateur exceptionnelles.
+					Développeur web passionné, je suis actuellement en formation
+					Développeur Web Fullstack jusqu'au 21 février 2025. Je suis à la
+					recherche d'un poste ou d’un stage pour mettre en pratique mes
+					compétences et continuer à évoluer.
 				</p>
+				<br />
 				<p>
-					Mon objectif ? Appliquer mes compétences dans un environnement
-					dynamique et stimulant tout en continuant à apprendre et à
-					m'améliorer.
+					Mon parcours m'a permis d'acquérir des compétences techniques solides,
+					que je suis impatient de mettre à profit au sein de votre équipe. Je
+					suis convaincu que notre collaboration serait mutuellement
+					enrichissante, me permettant de m’immerger dans vos procédés tout en
+					contribuant activement à vos projets.
 				</p>
+				<br />
 				<p>
-					<strong>
-						Je recherche activement une alternance dans la région rennaise
-					</strong>
-					, où je pourrai contribuer à des projets innovants tout en apportant
-					ma passion et ma créativité à votre équipe. Disponible à partir de
-					<strong> février 2025</strong>, je suis ravi d'explorer les
-					opportunités qui me permettront d'évoluer professionnellement tout en
-					ajoutant de la valeur à votre entreprise.
+					Avec 13 années d'expérience dans le commerce et la gestion, je possède
+					des compétences en gestion de projet et en animation d'équipe qui
+					seront des atouts précieux dans mon rôle de développeur web. Je
+					m'engage à travailler avec rigueur et professionnalisme, en veillant à
+					toujours satisfaire vos clients.
+				</p>
+				<br />
+				<p>
+					Je serais ravi de discuter de la manière dont je pourrais apporter ma
+					contribution à votre équipe lors d'un entretien. Mes compétences
+					techniques, associées à ma passion pour le développement, pourraient
+					vraiment ajouter de la valeur à votre entreprise.
 				</p>
 			</>
 		),
 		en: (
 			<>
 				<p>
-					Passionate about web development, I am dedicated to creating modern
-					and efficient applications that transform the user experience.
-					Currently training as a Full Stack developer at Wild Code School, I
-					specialize in JavaScript and React technologies and am ready to take
-					on new challenges.
-				</p>
-				<br />
-				<p>
-					My goal? To apply my skills in a dynamic and stimulating environment
-					while continuing to learn and improve.
+					A passionate web developer, I am currently training as a Full Stack
+					Developer until February 21, 2025. I am seeking a position or
+					internship to put my skills into practice and continue my growth.
 				</p>
 				<p>
-					<strong>
-						I am actively seeking an apprenticeship in the Rennes area
-					</strong>
-					, where I can contribute to innovative projects while bringing my
-					passion and creativity to your team. Available from
-					<strong> February 2025</strong>, I’m excited to explore opportunities
-					that will allow me to grow professionally while adding value to your
-					company.
+					My background has equipped me with solid technical skills, which I am
+					eager to leverage within your team. I believe our collaboration would
+					be mutually beneficial, allowing me to immerse myself in your
+					processes while actively contributing to your projects.
+				</p>
+				<p>
+					With 13 years of experience in commerce and management, I possess
+					project management and team leadership skills that would be valuable
+					in my role as a web developer. I am committed to working with rigor
+					and professionalism, always ensuring client satisfaction.
+				</p>
+				<p>
+					I would be delighted to discuss how I could contribute to your team's
+					success in an interview. My technical skills, combined with my passion
+					for development, could truly add value to your company.
 				</p>
 			</>
 		),
@@ -104,36 +113,38 @@ export default function Projects() {
 		fr: (
 			<>
 				<p>
-					Passionné par le développement web, je transforme des idées en
-					réalisations concrètes à travers des projets innovants utilisant des
-					technologies de pointe telles que <strong>React</strong>,{" "}
-					<strong>TypeScript</strong>, <strong>JavaScript</strong>,{" "}
-					<strong>Vite</strong> et <strong>Express</strong>.
+					Passionné par le développement web, j'ai le plaisir de donner vie à
+					des idées à travers des projets variés, en utilisant des technologies
+					telles que
+					<strong>React</strong>, <strong>TypeScript</strong>,{" "}
+					<strong>JavaScript</strong>,<strong>Vite</strong>,{" "}
+					<strong>Express</strong>, <strong>MySQL</strong> et
+					<strong> Tailwind</strong>.
 				</p>
+				<br />
 				<p>
-					Chaque projet représente non seulement un défi unique, mais aussi une
-					formidable opportunité d'apprentissage et d'amélioration continue. Je
-					m'efforce de concevoir des solutions efficaces et intuitives qui
-					répondent aux besoins des utilisateurs tout en intégrant les
-					meilleures pratiques de l'industrie.
+					Chaque projet représente pour moi non seulement un défi, mais aussi
+					une opportunité d'apprendre et de m'améliorer. Je m'efforce de
+					développer des solutions simples et efficaces qui répondent aux
+					besoins des utilisateurs, tout en intégrant les meilleures pratiques
+					de l'industrie.
 				</p>
 			</>
 		),
 		en: (
 			<>
 				<p>
-					Passionate about web development, I turn ideas into tangible results
-					through innovative projects using cutting-edge technologies such as{" "}
-					<strong>React</strong>, <strong>TypeScript</strong>,{" "}
-					<strong>JavaScript</strong>, <strong>Vite</strong>, and{" "}
-					<strong>Express</strong>.
+					A passionate web developer, I enjoy bringing ideas to life through a
+					variety of projects, using technologies such as <strong>React</strong>
+					,<strong>TypeScript</strong>, <strong>JavaScript</strong>,{" "}
+					<strong>Vite</strong>,<strong>Express</strong>, <strong>MySQL</strong>
+					, and <strong>Tailwind</strong>.
 				</p>
-				<br />
 				<p>
-					Each project not only represents a unique challenge but also a
-					tremendous opportunity for learning and continuous improvement. I
-					strive to design effective and intuitive solutions that meet user
-					needs while incorporating industry best practices.
+					Each project not only poses a unique challenge but also provides me
+					with an opportunity to learn and grow. I strive to create simple and
+					effective solutions that address user needs while adhering to industry
+					best practices.
 				</p>
 			</>
 		),
