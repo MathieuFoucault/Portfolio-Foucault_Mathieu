@@ -46,10 +46,10 @@ export default function Projects() {
 		fr: (
 			<>
 				<p>
-					Développeur web passionné, je suis actuellement en formation
-					Développeur Web Fullstack jusqu'au 21 février 2025. Je suis à la
-					recherche d'un poste ou d’un stage pour mettre en pratique mes
-					compétences et continuer à évoluer.
+					Développeur web passionné, j'ai récemment terminé ma formation
+					Développeur Web Fullstack. Je suis donc à la recherche d'un poste ou
+					d’un stage pour mettre en pratique mes compétences et continuer à
+					évoluer.
 				</p>
 				<br />
 				<p>
@@ -79,9 +79,9 @@ export default function Projects() {
 		en: (
 			<>
 				<p>
-					A passionate web developer, I am currently training as a Full Stack
-					Developer until February 21, 2025. I am seeking a position or
-					internship to put my skills into practice and continue my growth.
+					A passionate web developer, I recently completed my training Full
+					Stack Developer. So i am seeking a position or internship to put my
+					skills into practice and continue my growth.
 				</p>
 				<p>
 					My background has equipped me with solid technical skills, which I am
