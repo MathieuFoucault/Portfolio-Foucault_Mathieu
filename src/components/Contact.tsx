@@ -14,7 +14,7 @@ export default function Contact() {
 		{
 			icon: <Linkedin size={24} />,
 			text: "LinkedIn",
-			url: "https://www.linkedin.com/in/mathieu-foucault-fullstack-web-dev/",
+			url: "https://www.linkedin.com/in/mathieu-foucault-senior-manager/",
 		},
 		{
 			icon: <Mail size={24} />,
